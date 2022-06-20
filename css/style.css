@@ -302,3 +302,10 @@ img.portfolio-image:hover {
 .process-step.revert {
     flex-direction: row-reverse;
 }
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 80px 25px 80px 25px;
+}
