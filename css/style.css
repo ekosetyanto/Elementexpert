@@ -159,6 +159,7 @@ header {
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
+    padding: 0px 25px;
 }
 .above-title {
     font-size: 18px;
@@ -210,18 +211,18 @@ header {
 }
 .features-wrap {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     justify-items: center;
     flex-wrap: wrap;
     max-width: 1200px;
     margin-top: 50px;
 }
 .feature-card {
-    width: 24%;
+    width: 25%;
     padding: 30px;
     background-color: #ffffff1c;
     border-radius: 15px;
-    margin: 20px;
+    margin: 20px 0;
 }
 .center-title {
     text-align: center;
@@ -486,7 +487,7 @@ ul {
         padding: 0px;
         align-items: center;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 20px;
     }
     h1 {
         font-size: 58px;
@@ -496,6 +497,7 @@ ul {
     }
     .above-title {
         font-size: 16px;
+        letter-spacing: 3px;
     }
     h2, .heading-step {
         font-size: 30px;
@@ -519,10 +521,10 @@ ul {
         font-size: 27px;
     }
     .feature-card {
-        width: 100%;
+        width: 90%;
     }
     .portfolio-card {
-        width: 100%;
+        width: 90%;
     }
     .footer-wrapper {
         flex-direction: column;
